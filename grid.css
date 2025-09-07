@@ -1,0 +1,7 @@
+.container{
+    background-color: violet;
+    margin: 10px; 
+}
+.container-fluid{
+        background-color: red;
+}

@@ -1,0 +1,161 @@
+:root{
+  --fuente-principal: "Henny Penny", sans-serif;
+  --fuente-subtitulos: "Jolly Lodger", sans-serif;
+}
+
+nav#azulito{
+    background-color: rgb(6, 42, 150) !important;
+    font-family: var(--fuente-principal);
+}
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+        
+/* Video */
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+        
+/* Overlay para mejorar legibilidad del texto */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+        
+/* Contenido */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+/* Estilos para el fondo de video */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Overlay para mejorar legibilidad */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* Asegurar que el contenido tenga fondo semitransparente */
+.content-with-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+/* Ajustes para mejorar la visualización del contenido sobre el video */
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-custom {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #bb2d3b;
+  color: white;
+}
+#blackspace{
+    background-color:  rgb(from black 0 10 20);
+    
+}
+#navbar-personalizada .dropdown-item {
+  color: #ffffff !important; /* Color amarillo para el texto */
+  font-weight: bold;
+}
+/*
+Esto es de las 3 columnas de habilidades blandas, tecnicas y experiencia.
+*/
+body {
+    background: linear-gradient(135deg, #2c3e50, #1a1a2e);
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+}
+
+.custom-transparent-card {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.transparent-list .list-group-item {
+    background-color: transparent !important;
+}
+
+.card-link {
+    transition: all 0.3s ease;
+}
+
+.card-link:hover {
+    color: #7cb9e8 !important;
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+        

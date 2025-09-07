@@ -5,7 +5,7 @@
 ##  Demo
 
 Puedes ver el sitio en vivo en:  
-[https://tuusuario.github.io](https://kittycocp.github.io)
+[https://kittycocp.github.io](https://kittycocp.github.io)
 
 ##  Tecnologías Utilizadas
 
